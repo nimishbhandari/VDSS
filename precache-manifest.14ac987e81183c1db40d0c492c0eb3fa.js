@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/nimishbhandari/VDSS.git/static/js/runtime~main.d015a57c.js"
   },
   {
-    "revision": "38398a1e6096bcb8d0d1",
-    "url": "/nimishbhandari/VDSS.git/static/js/main.0ca5facc.chunk.js"
+    "revision": "884002570437e40a8aef",
+    "url": "/nimishbhandari/VDSS.git/static/js/main.9a47b96c.chunk.js"
   },
   {
     "revision": "9693f6f832811abc937c",
     "url": "/nimishbhandari/VDSS.git/static/js/2.7819fa93.chunk.js"
   },
   {
-    "revision": "38398a1e6096bcb8d0d1",
+    "revision": "884002570437e40a8aef",
     "url": "/nimishbhandari/VDSS.git/static/css/main.33420ceb.chunk.css"
   },
   {
-    "revision": "b679c0112b9d29bb5e2e4d24b45ffcde",
+    "revision": "4f74dc5890288dd38997e299fcbae9c5",
     "url": "/nimishbhandari/VDSS.git/index.html"
   }
 ];
