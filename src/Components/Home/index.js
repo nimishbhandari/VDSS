@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import './Home.scss';
-import Logo from '../../images/home.jpg';
-import Button from '../Button';
-import InputComponent from '../InputComponent';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlay } from '@fortawesome/free-solid-svg-icons';
+import React, { useState } from "react";
+import "./Home.scss";
+import Logo from "../../images/home.jpg";
+import Button from "../Button";
+import InputComponent from "../InputComponent";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
-function Home({isOpen, setIsOpen}) {
-  const [emailInput, setEmail] = useState('');
+function Home({ isOpen, setIsOpen }) {
+  const [emailInput, setEmail] = useState("");
   return (
     <div className="home">
       <div className="home__right">
@@ -19,10 +19,7 @@ function Home({isOpen, setIsOpen}) {
             </video>
           </div>
           <div className="home__right--desc">
-            <h1>
-            Why Pay More for Software Services?
-              
-            </h1>
+            <h1>Let’s start an Intelligent Digital Journey today!</h1>
             <Button
               btnText="Free Consultation"
               className="call_to_action"
