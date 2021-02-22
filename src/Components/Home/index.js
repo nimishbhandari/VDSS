@@ -28,9 +28,11 @@ function Home({ isOpen, setIsOpen }) {
           </div>
         </div>
         <div className="banner">
-          <p className="banner_heading">Online presence? Facebook adds?</p>
+          <p className="banner_heading">
+            We are a team of Developers and Data Scientists committed to deliver
+          </p>
           <p className="banner_content">
-            We stand with you and work with you as you Grow!
+            AI-Powered Websites | Software Development | Enhanced Digital Reach
           </p>
         </div>
         <span className="mouse"></span>
