@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
-import Button from '../Button';
-import { ClearIcon, ContactSvg, PhoneIcon, SubmitIcon } from '../Icons';
-import InputComponent from '../InputComponent';
-import './ContactForm.scss';
+import React, { useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
+import Button from "../Button";
+import { ClearIcon, ContactSvg, PhoneIcon, SubmitIcon } from "../Icons";
+import InputComponent from "../InputComponent";
+import "./ContactForm.scss";
 
-function Contact({isOpen, setIsOpen}) {
+function Contact({ isOpen, setIsOpen }) {
   const handleRecaptcha = (value) => {
     if (value) {
       //set the value of recaptcha
     }
-  }
+  };
   return (
-    <div className={isOpen ? 'contact sidebar-open' : 'contact'}>
+    <div className={isOpen ? "contact sidebar-open" : "contact"}>
       <div
         className="contact__btn"
         onClick={() => setIsOpen((isOpen) => !isOpen)}
@@ -56,18 +56,25 @@ function Contact({isOpen, setIsOpen}) {
               type="textarea"
               inputClass="sidebar__content__form--msg"
             />
-            <div className="recaptcha">
+            {/* <div className="recaptcha">
               <ReCAPTCHA
                 className="recap"
                 sitekey={process.env.REACT_APP_SITE_KEY}
                 onChange={(value) => handleRecaptcha(value)}
               />
-            </div>
-            
+            </div> */}
           </div>
           <div className="sidebar__content__btn">
-            <Button className="form-cancel" btnIcon={<ClearIcon />} onClick={() =>{}} />
-            <Button className="form-submit" btnIcon={<SubmitIcon />} onClick={() => {}} />
+            <Button
+              className="form-cancel"
+              btnIcon={<ClearIcon />}
+              onClick={() => {}}
+            />
+            <Button
+              className="form-submit"
+              btnIcon={<SubmitIcon />}
+              onClick={() => {}}
+            />
           </div>
         </div>
       </div>
